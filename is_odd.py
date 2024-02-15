@@ -52,6 +52,7 @@ class is_odd:
             return odd(self.number, "inverse")
         else:
             return odd(self.number, mode)
-
+            
     def is_prime(self, mode="normal"):
         return is_prime(self.number, mode)
+
